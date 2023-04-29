@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:obsidian_hive/util/theme.dart';
+import 'package:obsidian_hive/widget/catalogue.dart';
 import 'package:obsidian_hive/widget/markdown_viewer.dart';
 
 void main() {
@@ -13,13 +15,8 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Obsidian Hive',
       debugShowCheckedModeBanner: false,
-      theme: ThemeData(
-        useMaterial3: true,
-      ),
-      darkTheme: ThemeData(
-        useMaterial3: true,
-        brightness: Brightness.dark,
-      ),
+      theme: LightTheme,
+      darkTheme: DarkTheme,
       home: const MyHomePage(),
     );
   }
@@ -40,9 +37,20 @@ class _MyHomePageState extends State<MyHomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: MarkdownViewer(
-        filePath: _filePath ?? "README.md",
-      ),
-    );
+        body: Row(
+      children: [
+        Container(
+          width: 250,
+          height: double.infinity,
+          color: ColorSurface,
+          child: Catalogue(),
+        ),
+        Expanded(
+          child: MarkdownViewer(
+            filePath: _filePath ?? "README.md",
+          ),
+        ),
+      ],
+    ));
   }
 }
