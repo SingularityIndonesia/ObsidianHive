@@ -1,0 +1,152 @@
+{
+  "main": {
+    "id": "a5f7943f9a701518",
+    "type": "split",
+    "children": [
+      {
+        "id": "3de80734dffc8d64",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "456c75b327a2ab0a",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "6b6a25491414099c",
+    "type": "split",
+    "children": [
+      {
+        "id": "75cd3d85f3c5ecd6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d1cb6645d3016bbe",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "6ab143b1546515ff",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "823dd49b4063a267",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "08101da91bced32b",
+    "type": "split",
+    "children": [
+      {
+        "id": "01af34678a08b307",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e7d8ed02eea35afa",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "e3b69aa577124ac5",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "544d179f3a772e49",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "ddafee96f7c0ee54",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "456c75b327a2ab0a",
+  "lastOpenFiles": [
+    "a/One.md",
+    "a/Three.md",
+    "b/Two.md",
+    "b/Four.md",
+    "Untitled.md",
+    "b",
+    "a",
+    "README.md"
+  ]
+}
