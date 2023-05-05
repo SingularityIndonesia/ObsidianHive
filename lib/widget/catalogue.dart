@@ -8,21 +8,15 @@ class Catalogue extends StatefulWidget {
 }
 
 class CatalogueState extends State<Catalogue> {
+  final List<int> _catalogue = List.of([1, 2, 3]);
+
   @override
   Widget build(BuildContext context) {
-    return ListView(
-      children: [
-        ListTile(
-          title: Text("One"),
-          onTap: () {},
-          selectedColor: Colors.amber,
-          selected: true,
-        ),
-        ListTile(
-          title: Text("Two"),
-          onTap: () {},
-        ),
-      ],
+    return ListView.builder(
+      itemCount: _catalogue.length,
+      itemBuilder: (BuildContext c, int index) => ListTile(
+        title: Text('Index $index'),
+      ),
     );
   }
 }

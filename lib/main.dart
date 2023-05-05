@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:obsidian_hive/util/asset.dart';
 import 'package:obsidian_hive/util/theme.dart';
 import 'package:obsidian_hive/widget/catalogue.dart';
 import 'package:obsidian_hive/widget/markdown_viewer.dart';
@@ -33,24 +34,38 @@ class MyHomePage extends StatefulWidget {
 
 class _MyHomePageState extends State<MyHomePage> {
   String? _filePath;
+  String? _assetFileList;
+
+  @override
+  void initState() {
+    assetFileList().then((value) =>
+    {
+      setState(() =>
+      {
+        _assetFileList = value.toString()
+      })
+    });
+
+    super.initState();
+  }
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
         body: Row(
-      children: [
-        Container(
-          width: 250,
-          height: double.infinity,
-          color: ColorSurface,
-          child: Catalogue(),
-        ),
-        Expanded(
-          child: MarkdownViewer(
-            filePath: _filePath ?? "README.md",
-          ),
-        ),
-      ],
-    ));
+          children: [
+            Container(
+              width: 250,
+              height: double.infinity,
+              color: ColorSurface,
+              child: Text(_assetFileList ?? ""),
+            ),
+            Expanded(
+              child: MarkdownViewer(
+                filePath: _filePath ?? "README.md",
+              ),
+            ),
+          ],
+        ));
   }
 }
