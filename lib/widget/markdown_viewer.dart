@@ -1,6 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter_markdown/flutter_markdown.dart';
-
+import 'package:obsidian_hive/util/padding.dart';
 import '../util/file.dart';
 import '../util/markdown.dart';
 
@@ -42,6 +42,7 @@ class MarkdownViewerState extends State<MarkdownViewer> {
     return Markdown(
       data: _fileContent,
       selectable: true,
+      paddingBuilders: paddings,
       onTapLink: tapLinkCallback,
     );
   }
