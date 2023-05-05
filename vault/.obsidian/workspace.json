@@ -1,14 +1,14 @@
 {
   "main": {
-    "id": "a5f7943f9a701518",
+    "id": "ec00fbaed32ed718",
     "type": "split",
     "children": [
       {
-        "id": "3de80734dffc8d64",
+        "id": "46a65aabab54f51c",
         "type": "tabs",
         "children": [
           {
-            "id": "456c75b327a2ab0a",
+            "id": "d48e29258ab31b87",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -21,15 +21,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "6b6a25491414099c",
+    "id": "69fd92dced5bc036",
     "type": "split",
     "children": [
       {
-        "id": "75cd3d85f3c5ecd6",
+        "id": "44bd0f63c1ec3873",
         "type": "tabs",
         "children": [
           {
-            "id": "d1cb6645d3016bbe",
+            "id": "f65fd7d58b632405",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -39,7 +39,7 @@
             }
           },
           {
-            "id": "6ab143b1546515ff",
+            "id": "e473e52f9a490167",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -54,7 +54,7 @@
             }
           },
           {
-            "id": "823dd49b4063a267",
+            "id": "555c4ecd44c6b9ea",
             "type": "leaf",
             "state": {
               "type": "starred",
@@ -68,19 +68,20 @@
     "width": 300
   },
   "right": {
-    "id": "08101da91bced32b",
+    "id": "4f0122ea067fa0a0",
     "type": "split",
     "children": [
       {
-        "id": "01af34678a08b307",
+        "id": "248eb51ef649cfee",
         "type": "tabs",
         "children": [
           {
-            "id": "e7d8ed02eea35afa",
+            "id": "2f0a4dbc3f38e7ef",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
+                "file": "b-tutorial/6.  Loading Data Onto Colab.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -92,18 +93,19 @@
             }
           },
           {
-            "id": "e3b69aa577124ac5",
+            "id": "5f6c9b9fc1382894",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "b-tutorial/6.  Loading Data Onto Colab.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "544d179f3a772e49",
+            "id": "b05c45c8387b4137",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -114,14 +116,17 @@
             }
           },
           {
-            "id": "ddafee96f7c0ee54",
+            "id": "fbeb6134bf8dc6ba",
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "b-tutorial/6.  Loading Data Onto Colab.md"
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -138,15 +143,49 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "456c75b327a2ab0a",
+  "active": "f65fd7d58b632405",
   "lastOpenFiles": [
-    "a/One.md",
-    "a/Three.md",
-    "b/Two.md",
-    "b/Four.md",
-    "Untitled.md",
-    "b",
-    "a",
-    "README.md"
+    "b-tutorial/5. Getting Data.md",
+    "b-tutorial/9. Visualizing.md",
+    "b-tutorial/8. GPS Data.md",
+    "b-tutorial/7. Querying.md",
+    "b-tutorial/6.  Loading Data Onto Colab.md",
+    "Readme.md",
+    "Tasks.md",
+    "Recording-to-Script.md",
+    "res/img/5-1.png",
+    "a-setup/4. Setting Up Google Colab.md",
+    "res/img/6-8.png",
+    "res/img/6-7.png",
+    "res/img/6-6-3.png",
+    "res/img/6-6-2.png",
+    "res/img/6-6-1.png",
+    "res/img/6-4 1.png",
+    "res/img/6-4.png",
+    "res/img/6-3.png",
+    "res/img/6-2.png",
+    "a-setup/2. Creating A Strava API Application.md",
+    "a-setup/1. Becoming A Strava Developer.md",
+    "c-challenge/10. ChatGPT.md",
+    "a-setup/3. Setting Up Swagger Playground.md",
+    "c-challenge",
+    "Roadmap.canvas",
+    "b-tutorial",
+    "c-colab",
+    "b-getdata",
+    "Untitled.canvas",
+    "().md",
+    "b-playground",
+    "developers.strava.com.md",
+    "setup/1 Menjadi Strava Developer.md",
+    "setup/x. Google Colab.md",
+    "strava_activity",
+    "2..md",
+    "Pasted image 20230415012000.png.md",
+    "res/img",
+    "res",
+    "[.md",
+    "Setup.md",
+    "a-setup"
   ]
 }

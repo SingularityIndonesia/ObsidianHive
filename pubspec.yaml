@@ -67,8 +67,10 @@ flutter:
   #   - images/a_dot_ham.jpeg
   assets:
     - vault/
-    - vault/a/
-    - vault/b/
+    - vault/a-setup/
+    - vault/b-tutorial/
+    - vault/c-challenge/
+    - vault/res/
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware

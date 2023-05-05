@@ -1,0 +1,39 @@
+{
+	"nodes":[
+		{"type":"text","text":"Menjadi Strava Developer","id":"3727bed6ceff5c11","x":-520,"y":-320,"width":250,"height":60,"color":"4"},
+		{"type":"text","text":"Registrasi Akun Strava Developer","id":"96438fce640d9f6e","x":-180,"y":-440,"width":250,"height":60},
+		{"type":"text","text":"Login Akun Strava Developer","id":"7cc09ce78c7e9f8c","x":160,"y":-320,"width":250,"height":60},
+		{"type":"text","text":"Mile Stone 1 : Menjadi Strava Developer","id":"eb44ae09879c35af","x":460,"y":-320,"width":250,"height":60,"color":"2"},
+		{"type":"text","text":"Membuat Service Aplikasi Strava","id":"e34427e836feadc5","x":460,"y":-80,"width":250,"height":60,"color":"4"},
+		{"type":"text","text":"Menyiapkan Swagger Playground","id":"9f1151df7f004173","x":780,"y":180,"width":250,"height":60,"color":"4"},
+		{"type":"text","text":"Masuk ke Halaman Swagger Playground Strava","id":"a8d5c0af7ac59f28","x":1100,"y":180,"width":250,"height":60},
+		{"type":"text","text":"Authorisasi Swagger Playground Strava","id":"966bb7407ebb34ef","x":1420,"y":180,"width":250,"height":60},
+		{"type":"text","text":"Mile Stone 3 : Selesai Menyiapkan Strava Swagger Playground","id":"a56a071061e370a5","x":1740,"y":160,"width":250,"height":100,"color":"2"},
+		{"type":"text","text":"Mile Stone 2 : Berhasil Membuat Strava Application Service","id":"fdf609cff922d1c9","x":780,"y":-100,"width":250,"height":100,"color":"2"},
+		{"type":"text","text":"Memulai Google Colab","id":"9d7df165caca3902","x":1740,"y":461,"width":250,"height":60,"color":"4"},
+		{"type":"text","text":"Registrasi Google Colab","id":"5328388bd67d8ead","x":2080,"y":340,"width":250,"height":60},
+		{"type":"text","text":"Masuk ke Google Colab","id":"9fc5a3008a9d3d8f","x":2420,"y":462,"width":250,"height":60},
+		{"type":"text","text":"Membuat Notebook Baru","id":"3a34606278731ac4","x":2740,"y":462,"width":250,"height":60},
+		{"type":"text","text":"Mengintegrasikan Project dengan Google Drive","id":"c5b46bdf49db549e","x":3060,"y":462,"width":250,"height":60},
+		{"type":"text","text":"Mile Stone 4 : Selesai menyiapkan Google Colab","id":"991320d0853f6ba8","x":3400,"y":443,"width":250,"height":99,"color":"2"}
+	],
+	"edges":[
+		{"id":"9f75c12226794975","fromNode":"3727bed6ceff5c11","fromSide":"right","toNode":"7cc09ce78c7e9f8c","toSide":"left"},
+		{"id":"b60980ae879937e7","fromNode":"3727bed6ceff5c11","fromSide":"right","toNode":"96438fce640d9f6e","toSide":"left"},
+		{"id":"7510f2fa395d1b89","fromNode":"96438fce640d9f6e","fromSide":"right","toNode":"7cc09ce78c7e9f8c","toSide":"left"},
+		{"id":"0e163a10651fbdef","fromNode":"9f1151df7f004173","fromSide":"right","toNode":"a8d5c0af7ac59f28","toSide":"left"},
+		{"id":"3f32f0bd7aca1ca8","fromNode":"a8d5c0af7ac59f28","fromSide":"right","toNode":"966bb7407ebb34ef","toSide":"left"},
+		{"id":"857e4ac921a0146b","fromNode":"7cc09ce78c7e9f8c","fromSide":"right","toNode":"eb44ae09879c35af","toSide":"left"},
+		{"id":"a9f486d4091098b4","fromNode":"e34427e836feadc5","fromSide":"right","toNode":"fdf609cff922d1c9","toSide":"left"},
+		{"id":"61b87bab70dc0627","fromNode":"3a34606278731ac4","fromSide":"right","toNode":"c5b46bdf49db549e","toSide":"left"},
+		{"id":"b5be86b0f68826ad","fromNode":"9fc5a3008a9d3d8f","fromSide":"right","toNode":"3a34606278731ac4","toSide":"left"},
+		{"id":"54bb562b911f3a61","fromNode":"9d7df165caca3902","fromSide":"right","toNode":"9fc5a3008a9d3d8f","toSide":"left"},
+		{"id":"9c3bc3e62786d56f","fromNode":"966bb7407ebb34ef","fromSide":"right","toNode":"a56a071061e370a5","toSide":"left"},
+		{"id":"905705408d6f3efc","fromNode":"c5b46bdf49db549e","fromSide":"right","toNode":"991320d0853f6ba8","toSide":"left"},
+		{"id":"10abda3a036beb2d","fromNode":"9d7df165caca3902","fromSide":"right","toNode":"5328388bd67d8ead","toSide":"left"},
+		{"id":"b581e31e5cec28b9","fromNode":"5328388bd67d8ead","fromSide":"right","toNode":"9fc5a3008a9d3d8f","toSide":"left"},
+		{"id":"5e2c87513b90e05a","fromNode":"a56a071061e370a5","fromSide":"bottom","toNode":"9d7df165caca3902","toSide":"top"},
+		{"id":"211206d8e39cdb96","fromNode":"fdf609cff922d1c9","fromSide":"bottom","toNode":"9f1151df7f004173","toSide":"top"},
+		{"id":"f48c1195f5af8ccb","fromNode":"eb44ae09879c35af","fromSide":"bottom","toNode":"e34427e836feadc5","toSide":"top"}
+	]
+}
